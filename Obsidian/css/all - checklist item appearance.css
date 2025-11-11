@@ -1,0 +1,20 @@
+/* Check list item - for checked: remove default underscore and name purple underscore */
+/* ---------------- */
+.markdown-rendered ul > li.task-list-item.is-checked > .task-list-item-checkbox {
+    /* Optional: Add a different visual indicator if desired */
+}
+
+.markdown-rendered ul > li.task-list-item.is-checked {
+    text-decoration: underline !important; /* Changes strikethrough to underscore */
+    text-decoration-style: solid !important; /* Optional: Ensures a solid underscore */
+    /* If you want to adjust the color of the underscore, you can add: */
+    text-decoration-color: purple !important; /* Example: makes it a red color */
+}
+
+/* If you also want to apply underscore in Live Preview */
+.cm-s-obsidian .HyperMD-task-line[data-task]:has(input:checked) {
+    text-decoration: underline !important;
+    text-decoration-style: solid !important;
+    text-decoration-color: purple !important; /* Example for Live Preview */
+    /* text-decoration-color: var(--text-faint); */ /* Example for Live Preview */
+}

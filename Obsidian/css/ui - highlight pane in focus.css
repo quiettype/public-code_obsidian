@@ -1,0 +1,20 @@
+
+/* Highlight the pane with current focus. */
+/* -------------------------------------- */
+/* Highlights the active pane header */
+.mod-active .workspace-leaf-content[data-type="markdown"] .view-header {
+    border-bottom: 2px solid yellow !important; /* Or any color you prefer */
+}
+
+/* var(--interactive-accent) */
+
+/* Highlights the active tab title itself */
+.mod-active .workspace-tabs .mod-active .tab-title {
+    color: yellow !important;/* var(--text-highlight-bg); /* Or a bold color */
+    font-weight: bold;
+}
+
+/* Sets the active page title text to yellow */
+.workspace-leaf.mod-active .view-header-title {
+    color: yellow !important; /* You can use 'gold' or '#FFFF00' for a different yellow shade */
+}

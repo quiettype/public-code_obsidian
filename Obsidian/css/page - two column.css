@@ -1,0 +1,9 @@
+.two-columns {
+  display: block;
+  column-count: 2;
+  break-inside: avoid;
+  orphans: 5;
+  widows: 5;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 10%;
+}
