@@ -1,0 +1,9 @@
+/* <<------- Statusbar in bottom right corner (hover only) ------>> */
+	.status-bar {
+		opacity: 0;
+	}
+	.status-bar:hover {
+		opacity: 1;
+	}
+
+
